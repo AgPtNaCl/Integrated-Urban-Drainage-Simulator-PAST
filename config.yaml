@@ -1,0 +1,23 @@
+filepath:
+  Junctions: 'Junctions.shp'
+  Outfalls: 'Outfalls.shp'
+  Storages: 'Storages.shp'
+  Conduits: 'Conduits.shp'
+  Pumps: 'Pumps.shp'
+  Orifices: 'Orifices.shp'
+  Weirs: 'Weirs.shp'
+  Outlets: 'Outlets.shp'
+
+training_params:
+  num_samples: 3264
+  lstm_hidden_size: 200
+  file_path: 'training_set.h5'
+  epochs: 200
+  batch_size: 64
+  learning_rate: 0.001
+  eta_min: 0.0003
+
+validation_params:
+  valid_num: 60
+  validation_set_path: 'validation_set.h5'
+

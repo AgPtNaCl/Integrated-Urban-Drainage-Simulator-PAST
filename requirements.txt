@@ -1,0 +1,7 @@
+h5py
+torch
+numpy
+shapefile
+networkx
+argparse
+torch_geometric
